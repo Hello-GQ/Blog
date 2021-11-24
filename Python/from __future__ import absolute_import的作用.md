@@ -1,6 +1,6 @@
 本文转载自[https://blog.csdn.net/caiqiiqi/article/details/51050800](https://blog.csdn.net/caiqiiqi/article/details/51050800)
 
-&emsp;&emsp;关于这句`from __future__ import absolute_import`的作用，直观地看就是“从`__future__`中引入`absolute_import`”，即引入“绝对引入”。说到“绝对引入”，当然就会想起“相对引入”。那么什么是“相对引入”呢？比如说，你的文件结构如下：
+&emsp;&emsp;关于这句`from __future__ import absolute_import`的作用，直观地看就是“从`__future__`中引入`absolute_import`”，即引入“绝对引入”。说到“绝对引入”，当然就会想起“相对引入”。那么什么是“相对引入”呢？比如说，你的文件结构如下：  
 &emsp;&emsp;| pkg/  
 &emsp;&emsp;&emsp;| init.py  
 &emsp;&emsp;&emsp;| main.py  
